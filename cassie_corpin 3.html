@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head><title>Tech Innovators Club - Registration Form</title></head>
+<body>
+
+<h2>Tech Innovators Club Registration Form</h2>
+
+<form action="confirmation.html" method="post">
+
+<fieldset>
+<legend>Personal Information</legend>
+
+<label>Full Name:</label><br>
+<input type="text" name="fullname" placeholder="Enter full name" required><br><br>
+
+<label>Email Address:</label><br>
+<input type="email" name="email" placeholder="example@gmail.com" required><br><br>
+
+<label>Contact Number:</label><br>
+<input type="text" name="contact" placeholder="09XX XXX XXXX"><br><br>
+
+<label>Gender:</label><br>
+<input type="radio" name="gender" value="Male" required> Male<br>
+<input type="radio" name="gender" value="Female" required> Female<br>
+<input type="radio" name="gender" value="Prefer not to say" required> Prefer not to say<br><br>
+</fieldset>
+
+<br>
+
+<fieldset>
+<legend>Membership Information</legend>
+
+<label>Course/Grade Level:</label><br>
+<select name="course">
+<option value="G7">Grade 7</option>
+<option value="G8">Grade 8</option>
+<option value="G9">Grade 9</option>
+<option value="G10">Grade 10</option>
+<option value="G11">Grade 11</option>
+<option value="G12">Grade 12</option>
+</select><br><br>
+
+<label>Interests:</label><br>
+<input type="checkbox" name="interest" value="Programming"> Programming<br>
+<input type="checkbox" name="interest" value="Robotics"> Robotics<br>
+<input type="checkbox" name="interest" value="Graphic Design"> Graphic Design<br>
+<input type="checkbox" name="interest" value="Gaming"> Gaming<br><br>
+
+<label>Type of Member:</label><br>
+<select name="memberType">
+<option value="Regular">Regular</option>
+<option value="Officer">Officer</option>
+<option value="Volunteer">Volunteer</option>
+</select><br><br>
+
+<label>Comments or Suggestions:</label><br>
+<textarea name="comments" rows="3" placeholder="Write here..."></textarea><br><br>
+</fieldset>
+
+<br>
+
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+
+</form>
+
+</body>
+</html>
