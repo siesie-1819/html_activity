@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Banlog</title>
+
+    <!-- INTERNAL CSS (pang-student, simple lang) -->
+    <style>
+
+        /* BASIC RESET */
+        html, body {
+            height: 100%;
+            margin: 0;
+            font-family: Verdana;
+            background-color: #1f2623;
+        }
+
+        /* MAIN CONTAINER */
+        .hero {
+            height: 100%;
+            background-image: url("https://i.pinimg.com/1200x/f8/95/3a/f8953a78acbff6ecb2d49da8d74e3dee.jpg");
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        /* OVERLAY PARA MADILIM PERO HINDI BLACK */
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(30, 45, 38, 0.6);
+        }
+
+        /* NAVIGATION BAR */
+        .nav {
+            position: absolute;
+            top: 25px;
+            width: 100%;
+            text-align: center;
+            z-index: 2;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: #d9ece2;
+            font-size: 14px;
+            margin: 0 12px;
+            padding: 8px 16px;
+            background-color: rgba(28, 40, 35, 0.8);
+            border-radius: 12px;
+            box-shadow: 0 0 8px #000;
+        }
+
+        /* HOVER EFFECT */
+        .nav a:hover {
+            background-color: #7b1e1e;
+            color: white;
+        }
+
+        /* TITLE SECTION */
+        .title {
+            position: absolute;
+            bottom: 45px;
+            width: 100%;
+            text-align: center;
+            z-index: 2;
+        }
+
+        .title h1 {
+            font-size: 48px;
+            letter-spacing: 6px;
+            color: #e6f2ec;
+            text-shadow: 0 0 12px #000;
+            margin: 0;
+        }
+
+        .title p {
+            font-size: 15px;
+            font-style: italic;
+            color: #b7d2c3;
+            margin-top: 6px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="hero">
+
+        
+        <div class="overlay"></div>
+
+        
+        <div class="nav">
+            <a href="home.html" target="content">The Portal</a>
+            <a href="story.html" target="content">The Tale</a>
+            <a href="about.html" target="content">Behind the Legend</a>
+            <a href="profile.html" target="content">Meet the Author</a>
+        </div>
+
+        
+        <div class="title">
+            <h1>BANLOG</h1>
+            <p>Bantay ng Ilog</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
