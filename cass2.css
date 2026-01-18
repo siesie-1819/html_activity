@@ -1,113 +1,118 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Banlog</title>
+<title>The Portal | Banlog</title>
 
-   
-    <style>
+<link rel="stylesheet" href="https://siesie-1819.github.io/html_activity/cass1.css">
 
-       
-        html, body {
-            height: 100%;
-            margin: 0;
-            font-family: Verdana;
-            background-color: #1f2623;
-        }
+<style>
+body {
+    background-color: #2b2f2d;
+    font-family: Verdana;
+    color: #e0e0e0;
+}
 
-        
-        .hero {
-            height: 100%;
-            background-image: url("https://i.pinimg.com/1200x/f8/95/3a/f8953a78acbff6ecb2d49da8d74e3dee.jpg");
-            background-size: cover;
-            background-position: center;
-            position: relative;
-        }
+.container {
+    padding: 60px;
+}
 
-       
-        .overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-color: rgba(30, 45, 38, 0.6);
-        }
+h2 {
+    color: #b13a3a;
+    letter-spacing: 5px;
+    font-size: 36px;
+    text-shadow: 2px 2px 10px #111;
+}
 
-       
-        .nav {
-            position: absolute;
-            top: 25px;
-            width: 100%;
-            text-align: center;
-            z-index: 2;
-        }
+.portal-box {
+    background-color: #323a36;
+    padding: 45px;
+    border-radius: 22px;
+    box-shadow: 0 0 25px #1a1a1a;
+    margin-top: 30px;
+}
 
-        .nav a {
-            text-decoration: none;
-            color: #d9ece2;
-            font-size: 14px;
-            margin: 0 12px;
-            padding: 8px 16px;
-            background-color: rgba(28, 40, 35, 0.8);
-            border-radius: 12px;
-            box-shadow: 0 0 8px #000;
-        }
+.portal-box p {
+    font-size: 18px;
+    line-height: 1.9;
+    margin-bottom: 22px;
+}
 
-       
-        .nav a:hover {
-            background-color: #7b1e1e;
-            color: white;
-        }
+.warning {
+    margin-top: 45px;
+    padding: 22px 28px;
+    background-color: #3a3a3a;
+    color: #ededed;
+    border-left: 7px solid #8b1e1e;
+    border-radius: 14px;
+    font-style: italic;
+    line-height: 1.8;
+    box-shadow: 0 0 18px #1c1c1c;
+}
 
-       
-        .title {
-            position: absolute;
-            bottom: 45px;
-            width: 100%;
-            text-align: center;
-            z-index: 2;
-        }
+img {
+    display: block;
+    width: 80%;
+    margin: 50px auto 0;
+    border-radius: 20px;
+    box-shadow: 0 0 30px #111;
+}
 
-        .title h1 {
-            font-size: 48px;
-            letter-spacing: 6px;
-            color: #e6f2ec;
-            text-shadow: 0 0 12px #000;
-            margin: 0;
-        }
-
-        .title p {
-            font-size: 15px;
-            font-style: italic;
-            color: #b7d2c3;
-            margin-top: 6px;
-        }
-
-    </style>
+img:hover {
+    transform: scale(1.02);
+}
+</style>
 </head>
 
 <body>
 
-    <div class="hero">
+<div class="container">
 
-        
-        <div class="overlay"></div>
+<h2>THE PORTAL</h2>
 
-        
-        <div class="nav">
-            <a href="home.html" target="content">The Portal</a>
-            <a href="story.html" target="content">The Tale</a>
-            <a href="about.html" target="content">Behind the Legend</a>
-            <a href="profile.html" target="content">Meet the Author</a>
-        </div>
+<div class="portal-box">
 
-        
-        <div class="title">
-            <h1>BANLOG</h1>
-            <p>Bantay ng Ilog</p>
-        </div>
+<p>
+Sa lungsod ng Marikina, may isang ilog na tila payapa sa liwanag ng araw,
+ngunit nagiging mabigat ang katahimikan kapag sumasapit ang gabi.
+Maraming dumaraan, subalit kakaunti lamang ang tunay na
+<span style="color:#b13a3a; font-weight:bold;">nakakaunawa</span>
+sa lihim nitong tinatago.
+</p>
 
-    </div>
+<p>
+Ayon sa mga matatandang kuwento, may nilalang na nagbabantay sa tubig.
+Siya ay kilala bilang
+<span style="color:#b13a3a; font-weight:bold;">Banlog</span>,
+hindi diwata at hindi rin karaniwang multo,
+kundi isang tahimik na tagapangalaga ng ilog at kalikasan.
+</p>
+
+<p>
+Hindi siya nagpapakita upang manakot.
+Lumilitaw lamang siya kapag ang balanse ng ilog ay nalalabag
+kapag ang kalikasan ay inaabuso at ang katahimikan ay sinisira.
+</p>
+
+<p>
+Ang pahinang ito ang nagsisilbing pintuan patungo sa alamat ni Banlog.
+Isang paalala na hindi lahat ng bantay ay nakikita,
+at hindi lahat ng katahimikan ay ligtas.
+</p>
+
+</div>
+
+<div class="warning">
+<strong>Babala:</strong><br>
+Ang kuwentong ito ay 
+<span style="color:#b13a3a; font-weight:bold;">kathang-isip ko lamang</span> 
+at nilikha para sa proyektong pang-akademiko.
+Ito ay hango sa temang mitolohiyang Pilipino.
+Anumang pagkakatulad sa tunay na pangyayari o lugar ay hindi sinasadya.
+</div>
+
+<img src="https://i.pinimg.com/1200x/5d/a3/00/5da3001e72d5150d102ac643ea6ed4e4.jpg" alt="Banlog Portal Image">
+
+</div>
 
 </body>
 </html>
