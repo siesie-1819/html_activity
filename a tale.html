@@ -1,69 +1,243 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>The Portal</title>
+  <title>The Tale of Bantog</title>
   <link rel="stylesheet" href="https://siesie-1819.github.io/html_activity/A1.css">
 
   <style>
-    .teaser {
-      font-style: italic;
+    .tab-buttons {
       text-align: center;
-      font-size: 18px;
+      margin: 30px 0;
     }
-    .warning {
-      border-left: 5px solid red;
-      padding: 20px;
-      background-color: rgba(0,0,0,0.6);
-      margin-top: 30px;
+
+    .tab-buttons a {
+      display: inline-block;
+      padding: 14px 30px;
+      margin: 6px;
+      background-color: #0b2b1a;
+      color: #9dffb3;
+      text-decoration: none;
+      border-radius: 30px;
+      box-shadow: 0 0 12px rgba(0,255,150,0.6);
+      font-weight: bold;
+    }
+
+    .tab-buttons a:hover {
+      background-color: darkred;
+      color: white;
+      box-shadow: 0 0 18px red;
+    }
+
+    .story-part {
+      display: none;
+      margin-bottom: 40px;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 0 25px black;
+      background-size: cover;
+      background-position: center;
+      animation: fade 0.6s ease-in;
+    }
+
+    .story-part:target {
+      display: block;
+    }
+
+    @keyframes fade {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+
+    .overlay {
+      background-color: rgba(0,0,0,0.75);
+      padding: 30px;
+      border-radius: 15px;
+    }
+
+    .story-part h2 {
+      text-align: center;
+      color: #7dffb3;
+      text-shadow: 0 0 12px green;
+      margin-bottom: 25px;
+    }
+
+    .story-part p {
+      line-height: 1.9;
+      text-align: justify;
+      margin-bottom: 15px;
+    }
+
+    .dialogue {
+      font-style: italic;
+      color: #ff9a9a;
+      margin-left: 20px;
     }
   </style>
 </head>
+
 <body>
 
 <nav>
-  <a href="https://siesie-1819.github.io/html_activity/a%20portal.html">The Portal</a>
+  <a href="index.html">The Portal</a>
   <a href="story.html">The Tale</a>
   <a href="about.html">Behind the Legend</a>
   <a href="profile.html">Meet the Author</a>
 </nav>
 
-<div class="header" style="background-image:url('https://i.pinimg.com/1200x/f8/95/3a/f8953a78acbff6ecb2d49da8d74e3dee.jpg');">
+<header class="header" style="background-image:url('https://i.pinimg.com/736x/a7/7f/3b/a77f3b0b96c31603a4dee2fa85f4e22c.jpg');">
   <div class="header-box">
-    <h1 class="glow-text">BANTOG</h1>
-    <p>The Silent Guardian of Marikina River</p>
+    <h1 class="glow-text">The Tale of Bantog</h1>
+    <p>The Silent Watcher of Marikina River</p>
   </div>
-</div>
+</header>
 
 <div class="section">
 
-<div class="card">
-  <p class="teaser">
-    “Kapag ang ilog ay tumahimik at tila nakatingin pabalik,  
-    huwag mo nang hintaying may tumawag sa pangalan mo.”
-  </p>
+<div class="tab-buttons">
+  <a href="#beginning">Beginning</a>
+  <a href="#middle">Middle</a>
+  <a href="#ending">Ending</a>
+</div>
 
-  <video controls width="100%">
-    <source src="https://siesie-1819.github.io/html_activity/Screen%20Recording%202026-01-19%20200956.mp4" type="video/mp4">
-  </video>
 
-  <p class="teaser">
-    Isang alamat tungkol kay <span class="glow-text">Bantog</span>,  
-    ang bantay na hindi nakikita ngunit laging nararamdaman.
-  </p>
+<div id="beginning" class="story-part" style="background-image:url('https://i.pinimg.com/1200x/ae/54/5f/ae545fae81ba6036abd062b7719c1f8f.jpg');">
+  <div class="overlay">
+    <h2>Beginning</h2>
 
-  <div class="warning">
     <p>
-      <strong style="color:red;">BABALA:</strong><br>
-      Ang kwentong ito ay kathang-isip ko lamang at ginawa para sa
-      proyekto sa paaralan. Hindi ito totoo, ngunit may aral na
-      nais iparating.
+      Noon pa man, bago pa naging lungsod ang Marikina,
+      ang ilog ay itinuturing na banal.
+      Tahimik ito sa umaga at misteryoso sa gabi.
+    </p>
+
+    <p>
+      Madalas sabihin ng mga matatanda,
+      <span class="dialogue">“Huwag kayong lalapit sa ilog kapag hatinggabi.”</span>
+      Walang nagpapaliwanag kung bakit.
+    </p>
+
+    <p>
+      Isang gabi, tinanong ng batang si Lando ang kanyang lola.
+      <span class="dialogue">“Lola, bakit po bawal sa ilog sa gabi?”</span>
+      Tahimik munang tumingin ang matanda bago sumagot.
+    </p>
+
+    <p>
+      <span class="dialogue">
+      “May nagbabantay doon. Ang pangalan niya… Bantog.”
+      </span>
+    </p>
+
+    <p>
+      Ayon sa kwento, si Bantog ay hindi tao,
+      hindi rin hayop.
+      Isa siyang anino na nabuo mula sa galit ng ilog.
+    </p>
+
+    <p>
+      Kapag may taong walang respeto sa kalikasan,
+      sinasabing lumilitaw siya sa ibabaw ng tubig,
+      nakatingin, naghihintay.
     </p>
   </div>
 </div>
 
-<img src="https://i.pinimg.com/736x/6a/1c/e4/6a1ce4f65e0cd23d730217a7e1d3a1fd.jpg">
+
+<div id="middle" class="story-part" style="background-image:url('https://i.pinimg.com/736x/3b/31/8f/3b318f72dcee7739e10aa51cf31ad331.jpg');">
+  <div class="overlay">
+    <h2>Middle</h2>
+
+    <p>
+      Lumipas ang mga taon at nakalimutan ng mga tao ang babala.
+      Naging tapunan ng basura ang ilog.
+      Unti-unting umitim ang tubig.
+    </p>
+
+    <p>
+      Dito nagsimula ang mga kakaibang pangyayari.
+      May mga bangkang gumagalaw kahit walang sakay.
+      May mga yabag sa tubig kahit walang tao.
+    </p>
+
+    <p>
+      Isang gabi, narinig ni Lando ang bulong mula sa ilog.
+      <span class="dialogue">“Umalis ka… hindi ka ligtas.”</span>
+    </p>
+
+    <p>
+      Tumakbo siya pauwi, nanginginig.
+      Ngunit kinabukasan, may isang lalaki ang nawala.
+      Huling nakita siyang nagtatapon ng basura sa ilog.
+    </p>
+
+    <p>
+      <span class="dialogue">
+      “Bumalik na siya,” bulong ng mga matatanda.
+      </span>
+    </p>
+
+    <p>
+      Sa hatinggabi, may mga nakakita ng anyong itim
+      na nakatayo sa gitna ng ilog,
+      may matang kumikislap sa dilim.
+    </p>
+
+    <p>
+      Walang sumisigaw. Walang tumutulong.
+      Tanging ang agos ng tubig ang maririnig.
+    </p>
+  </div>
+</div>
+
+
+<div id="ending" class="story-part" style="background-image:url('https://i.pinimg.com/1200x/e3/0e/ce/e30ece1b94c76723d9c80a6f9c6249d9.jpg');">
+  <div class="overlay">
+    <h2>Ending</h2>
+
+    <p>
+      Dahil sa takot, nagtipon ang buong barangay.
+      Napagdesisyunan nilang linisin ang ilog
+      at itigil ang pang-aabuso rito.
+    </p>
+
+    <p>
+      Habang nililinis nila ang ilog,
+      biglang humangin nang malakas.
+      May bumulong muli.
+    </p>
+
+    <p>
+      <span class="dialogue">
+      “Huli na ang pagsisisi… pero tinatanggap ko.”
+      </span>
+    </p>
+
+    <p>
+      Kinaumagahan, malinaw ang tubig.
+      Tahimik ang paligid.
+      Wala nang anino.
+    </p>
+
+    <p>
+      Si Bantog ay muling nawala.
+      Hindi bilang halimaw,
+      kundi bilang bantay.
+    </p>
+
+    <p>
+      Hanggang ngayon, may mga nagsasabing
+      kapag may taong gumagawa ng masama sa ilog,
+      may matang nagmamasid mula sa dilim.
+    </p>
+
+    <p>
+      At kapag narinig mo ang bulong sa gabi,
+      baka hindi mo na iyon mapakinggan muli.
+    </p>
+  </div>
+</div>
 
 </div>
+
 </body>
 </html>
-
