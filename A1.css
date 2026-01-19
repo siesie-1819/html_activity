@@ -1,14 +1,12 @@
-* { box-sizing: border-box; }
-
 body {
   margin: 0;
   font-family: Georgia, serif;
   background-color: #0b1f16;
-  color: #e6fff2;
+  color: #e6ffe6;
 }
 
 nav {
-  background-color: #07150f;
+  background-color: #08150f;
   padding: 15px;
   text-align: center;
   position: sticky;
@@ -16,16 +14,19 @@ nav {
 }
 
 nav a {
-  color: #7dffb3;
-  text-decoration: none;
+  color: #9dffb3;
   margin: 0 15px;
+  text-decoration: none;
   font-weight: bold;
 }
 
-nav a:hover { color: red; }
+nav a:hover {
+  color: red;
+  text-shadow: 0 0 8px red;
+}
 
 .header {
-  height: 320px;
+  height: 300px;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -34,60 +35,41 @@ nav a:hover { color: red; }
 }
 
 .header-box {
-  background-color: rgba(0,0,0,0.7);
-  padding: 30px 45px;
-  border-radius: 20px;
+  background-color: rgba(0,0,0,0.6);
+  padding: 30px;
+  border-radius: 15px;
   text-align: center;
-  box-shadow: 0 0 25px black;
-}
-
-.header-box h1 {
-  color: #7dffb3;
-  text-shadow: 2px 2px 8px black;
+  box-shadow: 0 0 20px black;
 }
 
 .section {
-  max-width: 900px;
-  margin: auto;
-  padding: 40px 20px;
+  padding: 40px;
 }
 
 .card {
-  background-color: #112a20;
-  padding: 30px;
-  margin-bottom: 40px;
-  border-radius: 20px;
-  box-shadow: 0 0 20px rgba(0,255,150,0.3);
-}
-
-.card h2 {
-  text-align: center;
-  color: #7dffb3;
-  text-shadow: 2px 2px 6px black;
-}
-
-.card p {
-  line-height: 1.9;
-  text-align: justify;
-}
-
-.story-links {
-  text-align: center;
+  background-color: rgba(0,0,0,0.55);
+  padding: 25px;
+  border-radius: 15px;
   margin-bottom: 30px;
+  box-shadow: 0 0 18px #003d1f;
 }
-
-.story-links a {
-  color: #7dffb3;
-  text-decoration: none;
-  margin: 0 10px;
-  font-weight: bold;
-}
-
-.story-links a:hover { color: red; }
 
 img {
   width: 100%;
-  margin: 30px 0;
-  border-radius: 20px;
-  box-shadow: 0 0 25px rgba(255,0,0,0.4);
+  max-width: 600px;
+  display: block;
+  margin: 30px auto;
+  border-radius: 15px;
+  box-shadow: 0 0 15px black;
+}
+
+img:hover {
+  transform: scale(1.03);
+}
+
+.glow-text {
+  color: #9dffb3;
+  text-shadow:
+    0 0 5px #1aff66,
+    0 0 10px #0f8033;
 }
