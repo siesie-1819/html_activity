@@ -23,17 +23,40 @@ nav{
     gap:35px;
 }
 
-nav a{
+nav a:link{
     color:#e6f2ff;
     text-decoration:none;
-    font-weight:600;
-    font-size:16px;
-    padding:8px 18px;
-    border-radius:20px;
+}
+
+nav a:visited{
+    color:#b3d9ff;
 }
 
 nav a:hover{
     background:#1a75ff;
+    color:#ffffff;
+}
+
+nav a:active{
+    background:#003d99;
+    color:#ffffff;
+}nav a:link{
+    color:#e6f2ff;
+    text-decoration:none;
+}
+
+nav a:visited{
+    color:#b3d9ff;
+}
+
+nav a:hover{
+    background:#1a75ff;
+    color:#ffffff;
+}
+
+nav a:active{
+    background:#003d99;
+    color:#ffffff;
 }
 
 .header{
@@ -147,4 +170,5 @@ footer{
     padding:18px;
     font-size:14px;
 }
+
 
