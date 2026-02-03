@@ -1,88 +1,95 @@
-body {
-    font-family: Arial, sans-serif;
+* {
     margin: 0;
-    color: #003366;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
 }
 
+body {
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
 
 nav {
-    display: flex;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: rgba(30, 94, 255, 0.9);
-}
-
-nav img {
-    width: 45px;
-    margin-right: 15px;
-    border-radius: 5px;
+    background: rgba(0, 30, 80, 0.85);
+    padding: 18px;
+    text-align: center;
 }
 
 nav a {
-    color: white;
+    color: #d6ecff;
+    margin: 0 25px;
     text-decoration: none;
-    margin-right: 15px;
+    font-size: 18px;
     font-weight: bold;
 }
 
+nav a:link { color: #d6ecff; }
+nav a:visited { color: #b3daff; }
 nav a:hover {
-    color: yellow;
-    text-decoration: underline;
+    color: white;
+    background-color: #0059b3;
+    padding: 8px 14px;
+    border-radius: 6px;
+}
+nav a:active { color: #80c1ff; }
+
+.header {
+    background: rgba(0, 0, 0, 0.55);
+    padding: 70px;
+    text-align: center;
 }
 
+.header h1 {
+    font-size: 52px;
+    letter-spacing: 2px;
+}
 
-.container {
-    width: 85%;
-    margin: 30px auto;
-    background-color: rgba(255, 255, 255, 0.95);
-    padding: 25px;
+.header p {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.content {
+    background: rgba(0, 0, 0, 0.65);
+    padding: 45px;
+    margin: 40px;
+    border-radius: 15px;
+    line-height: 1.8;
+}
+
+.content img {
+    width: 100%;
+    max-width: 420px;
     border-radius: 12px;
+    margin: 20px 0;
 }
 
-
-h1, h2 {
-    color: #1e5eff;
-}
-
-
-.highlight {
-    color: #1e5eff;
-    background-color: #dbe8ff;
-    padding: 3px 6px;
-    border-radius: 5px;
+span {
+    color: #66ccff;
     font-weight: bold;
 }
-
-
-img.content-img {
-    width: 280px;
-    margin: 10px 0;
-    border-radius: 12px;
-}
-
 
 .post {
-    margin-bottom: 35px;
+    margin-bottom: 60px;
 }
 
-
 .gallery img {
-    width: 250px;
-    margin: 10px;
-    border-radius: 12px;
-    transition: transform 0.3s, opacity 0.3s;
+    width: 260px;
+    border-radius: 15px;
+    margin: 15px;
+    transition: transform 0.4s;
 }
 
 .gallery img:hover {
-    transform: scale(1.05);
-    opacity: 0.8;
+    transform: scale(1.12);
 }
 
-
 footer {
-    background-color: rgba(30, 94, 255, 0.9);
-    color: white;
+    background: rgba(0, 20, 60, 0.9);
     text-align: center;
-    padding: 12px;
-
+    padding: 20px;
+    font-size: 14px;
 }
