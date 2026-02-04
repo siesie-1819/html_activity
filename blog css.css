@@ -13,7 +13,7 @@ body{
 .page-home{
     background:
         linear-gradient(rgba(5,11,26,.75), rgba(10,31,68,.75)),
-        url("PASTE_HOME_IMAGE_LINK_HERE");
+        url("https://i.pinimg.com/736x/20/be/1f/20be1f345fc965d01adf45b1cb08491a.jpg");
     background-size:cover;
     background-position:center;
     background-attachment:fixed;
@@ -22,7 +22,7 @@ body{
 .page-posts{
     background:
         linear-gradient(rgba(5,11,26,.😎, rgba(10,31,68,.8)),
-        url("PASTE_POSTS_IMAGE_LINK_HERE");
+        url("bnbv");
     background-size:cover;
     background-position:center;
     background-attachment:fixed;
@@ -31,7 +31,7 @@ body{
 .page-gallery{
     background:
         linear-gradient(rgba(5,11,26,.7), rgba(10,31,68,.7)),
-        url("PASTE_GALLERY_IMAGE_LINK_HERE");
+        url("");
     background-size:cover;
     background-position:center;
     background-attachment:fixed;
@@ -40,7 +40,7 @@ body{
 .page-about{
     background:
         linear-gradient(rgba(5,11,26,.😎, rgba(10,31,68,.8)),
-        url("PASTE_ABOUT_IMAGE_LINK_HERE");
+        url("");
     background-size:cover;
     background-position:center;
     background-attachment:fixed;
@@ -239,3 +239,4 @@ footer{
     color:#9bbcff;
     margin-top:50px;
 }
+
