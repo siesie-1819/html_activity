@@ -22,6 +22,14 @@ nav{
     justify-content:center;
     gap:35px;
 }
+nav a{
+    color:#e6f2ff;
+    text-decoration:none;
+    font-weight:600;
+    font-size:16px;
+    padding:8px 18px;
+    border-radius:20px;
+}
 
 nav a:link{
     color:#e6f2ff;
@@ -170,6 +178,7 @@ footer{
     padding:18px;
     font-size:14px;
 }
+
 
 
 
