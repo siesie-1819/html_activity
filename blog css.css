@@ -52,7 +52,6 @@ nav a.active{
     background:#0052cc;
     color:#ffffff;
 }
-
 .header{
     background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
     padding:90px 40px;
@@ -114,36 +113,25 @@ span{
     display:block;
     margin:20px auto;
     border-radius:18px;
-}.gallery{
+}
+
+.gallery{
     display:flex;
     justify-content:center;
     flex-wrap:wrap;
-    gap:30px;
 }
 
-.gallery-item{
-    background:rgba(0,0,0,0.6);
-    border-radius:20px;
-    padding:20px;
-    width:340px;
-    text-align:center;
-}
-
-.gallery-item img{
-    width:100%;
-    height:230px;
+.gallery img{
+    width:300px;
+    height:200px;
     object-fit:cover;
+    margin:15px;
     border-radius:18px;
     transition:0.4s;
 }
 
-.gallery-item img:hover{
-    transform:scale(1.05);
-}
-
-.gallery-item p{
-    margin-top:15px;
-    font-size:17px;
+.gallery img:hover{
+    transform:scale(1.08);
 }
 
 .about{
@@ -164,11 +152,3 @@ footer{
     padding:18px;
     font-size:14px;
 }
-
-
-
-
-
-
-
-
