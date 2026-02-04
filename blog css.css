@@ -15,58 +15,41 @@ body{
 nav{
     position:sticky;
     top:0;
-    z-index:1000;
-    background:rgba(5,20,60,0.9);
+    background:#0a1a33;
     padding:15px;
-    display:flex;
-    justify-content:center;
-    gap:35px;
+    text-align:center;
+    z-index:1000;
 }
+
 nav a{
-    color:#e6f2ff;
     text-decoration:none;
-    font-weight:600;
-    font-size:16px;
-    padding:8px 18px;
-    border-radius:20px;
+    font-weight:bold;
+    padding:10px 20px;
+    margin:0 8px;
+    border-radius:25px;
+    transition:0.3s ease;
 }
 
 nav a:link{
     color:#e6f2ff;
-    text-decoration:none;
 }
+
 
 nav a:visited{
     color:#b3d9ff;
 }
 
+/* HOVER EFFECT */
 nav a:hover{
     background:#1a75ff;
-    color:#ffffff;
+    color:white;
 }
+
 
 nav a:active{
     background:#003d99;
-    color:#ffffff;
-}nav a:link{
-    color:#e6f2ff;
-    text-decoration:none;
+    color:white;
 }
-
-nav a:visited{
-    color:#b3d9ff;
-}
-
-nav a:hover{
-    background:#1a75ff;
-    color:#ffffff;
-}
-
-nav a:active{
-    background:#003d99;
-    color:#ffffff;
-}
-
 .header{
     background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
     padding:90px 40px;
@@ -178,6 +161,7 @@ footer{
     padding:18px;
     font-size:14px;
 }
+
 
 
 
