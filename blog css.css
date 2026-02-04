@@ -39,7 +39,7 @@ nav a:visited{
     color:#b3d9ff;
 }
 
-/* HOVER EFFECT */
+
 nav a:hover{
     background:#1a75ff;
     color:white;
@@ -161,6 +161,7 @@ footer{
     padding:18px;
     font-size:14px;
 }
+
 
 
 
