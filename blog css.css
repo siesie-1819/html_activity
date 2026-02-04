@@ -31,25 +31,29 @@ nav a{
 }
 
 nav a:link{
+    color:#cce6ff;
+}
+
+nav a:visited{
+    color:#99ccff;
+}
+
+nav a:hover{
+    background:#3385ff;
+    color:#ffffff;
+}
+
+nav a:active{
+    background:#1a53ff;
     color:#e6f2ff;
 }
 
-
-nav a:visited{
-    color:#b3d9ff;
+nav a.active{
+    background:#0052cc;
+    color:#ffffff;
 }
+Write to Cassie Corpin
 
-
-nav a:hover{
-    background:#1a75ff;
-    color:white;
-}
-
-
-nav a:active{
-    background:#003d99;
-    color:white;
-}
 .header{
     background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
     padding:90px 40px;
@@ -161,6 +165,7 @@ footer{
     padding:18px;
     font-size:14px;
 }
+
 
 
 
