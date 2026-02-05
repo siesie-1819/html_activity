@@ -135,8 +135,11 @@ p{
 
 .post img{
   width:100%;
-  margin:18px 0;
+  max-width:700px;
+  display:block;
+  margin:20px auto;
   border-radius:15px;
+  object-fit:cover;
 }
 
 .gallery{
@@ -202,3 +205,4 @@ footer{
   border-radius:30px;
   font-size:.95rem;
 }
+
