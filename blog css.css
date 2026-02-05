@@ -117,10 +117,11 @@ p{
 }
 
 .post{
-  background:rgba(0,0,0,.45);
-  padding:30px;
-  border-radius:20px;
-  margin-bottom:35px;
+  color:#eef3ff;
+  line-height:1.9;
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
 }
 
 .post h2{
@@ -205,4 +206,5 @@ footer{
   border-radius:30px;
   font-size:.95rem;
 }
+
 
