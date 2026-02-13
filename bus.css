@@ -364,18 +364,6 @@ footer p{
     font-size:14px;
 }
 
-.contact-header{
-    height:320px;
-    background:linear-gradient(135deg,#ff8fab,#e75480);
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-    text-align:center;
-    color:white;
-    position:relative;
-    overflow:hidden;
-}
 
 .contact-header::before{
     content:"";
@@ -497,5 +485,6 @@ footer p{
     background:#c7436c;
     transform:scale(1.05);
 }
+
 
 
